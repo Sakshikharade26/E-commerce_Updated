@@ -1,0 +1,343 @@
+:root {
+    /*---Font Family---*/
+    --font-family-primary: "Afacad", sans-serif;
+    --font-family-secondary: "Outfit", sans-serif;
+
+    /*---Baground Colors---*/
+    --bg-black-primary: #000000;
+    --bg-black-secondary: #555555;
+    --bg-black-tertiary: #acafab;
+
+
+    /*-----gray----*/
+    --bg-gray-primary: #ededed;
+    --bg-gray-secondary: #e4e4e4;
+    --bg-gray-tertiary: #e9ecef;
+
+    --bg-orange: #ee7f00;
+
+    /*-----green----*/
+    --bg-green-primary: #499f30;
+    --bg-green-secondary: #007a41;
+
+    --bg-red: #c8102e;
+
+    --bg-pink: #eedfc6;
+
+    --bg-purple: #8809e3;
+
+    /*-----blue----*/
+    --bg-blue-primary: #3b5998;
+    --bg-blue-secondary: #b2cbea;
+
+
+
+    /*----text colors----*/
+
+    /*--black--*/
+    --text-color-primary: #000000;
+    --text-color-secondary: #00000080;
+    --text-color-tertiary: #5f615e;
+
+    /*--gray--*/
+    --text-gray-primary: #687484;
+    --text-gray-secondary: #8a8c8a;
+    --text-gray-tertiary: #acafab;
+
+    --text-orange: #e69600;
+    --text-green: #007a41;
+    --text-red: #c8102e;
+    --text-white: #ffffff;
+
+    /*---font sizes---*/
+    --font-size-16px: 16px;
+    --font-size-14px: 14px;
+    --font-size-12px: 12px;
+    --font-size-18px: 18px;
+    --font-size-20px: 20px;
+    --font-size-24px: 24px;
+    --font-size-40px: 40px;
+    --font-size-56px: 56px;
+
+    /*---font weights---*/
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+
+    /*----line heights----*/
+    --line-height-12px: 12px;
+    --line-height-14px: 14px;
+    --line-height-18px: 18px;
+    --line-height-20px: 20px;
+    --line-height-21px: 21px;
+    --line-height-22px: 22px;
+    --line-height-24px: 24px;
+    --line-height-40px: 40px;
+    --line-height-56px: 56px;
+
+
+
+}
+
+
+.header-1 {
+    height: 40px;
+    margin: 0px !important;
+}
+
+.info-header {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-18px);
+    margin: 0px !important;
+    padding: 0px !important;
+    color: var(--bg-black-secondary);
+
+}
+
+.info-header i {
+    font-size: var(--font-size-16px);
+    margin-top: 3px;
+
+}
+
+.info-header-right {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-18px);
+    margin: 0px !important;
+    padding: 0px !important;
+    color: var(--bg-black-secondary);
+}
+
+.info-header-right i {
+    font-size: var(--font-size-16px);
+    margin-top: 3px;
+}
+
+.verticle-line {
+    width: 1px;
+    height: 20px;
+    background-color: var(--bg-black-primary);
+    margin-top: 5px;
+}
+
+.vr-line {
+    width: 1px;
+    height: 25px;
+    background-color: var(--bg-black-tertiary);
+    margin-top: 2px;
+}
+
+.categories-angle {
+    color: var(--bg-black-tertiary);
+
+}
+
+.info-header-right .dropdown button {
+    border: none !important;
+    background-color: transparent !important;
+    color: var(--bg-black-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-18px);
+}
+
+.info-header-right .dropdown-menu {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none !important;
+
+}
+
+.info-header-right img {
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+.horizontal-row {
+    color: var(--bg-black-tertiary);
+}
+
+.info-header:hover {
+    color: var(--text-green);
+}
+
+
+/*----Second Header---*/
+
+.header-2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.search-box {
+    height: 50px;
+    border: 1px solid var(--bg-green-primary);
+    border-radius: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.dropdown {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.dropdown-categories {
+    font-family: var(--font-family-secondary);
+    padding-top: 10px;
+}
+
+.search-input input {
+    border: none !important;
+}
+
+input[type="text"]:focus-visible {
+    outline: none !important;
+}
+
+/*Psuedo element for search input*/
+.search-input input::placeholder {
+    font-family: var(--font-family-secondary);
+}
+
+.srh-btn button {
+    background-color: var(--bg-green-secondary);
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-family: var(--font-family-secondary);
+    color: white;
+    font-weight: 600;
+
+}
+
+
+.account-section {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.account-icon {
+    display: flex;
+    gap: 7px;
+}
+
+.account-icon:hover {
+    color: var(--text-green);
+}
+
+.account-info p {
+    margin: 0px !important;
+    font-size: 11px;
+}
+
+
+.account-icon i {
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+
+
+.vr {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-green-secondary);
+}
+
+.cart i:hover {
+    color: var(--text-green);
+
+}
+
+.cart-info p {
+    font-size: 10px;
+}
+
+.wishlist i {
+    font-size: 30px;
+    color: var(--text-color-primary);
+
+}
+
+.wishlist i:hover {
+    color: var(--text-green);
+}
+
+.cart-icon i {
+    font-size: 30px;
+    color: var(--text-color-primary);
+}
+
+
+.num {
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    padding: 0px !important;
+}
+
+.info-header-right:hover {
+    color: var(--text-green);
+}
+
+
+.modal-dialog {
+    position: absolute;
+    top: 43px !important;
+    left: -54px !important;
+}
+
+.modal-content {
+    border: none !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-close {
+    box-shadow: none !important;
+    opacity: 1 !important;
+}
+
+.btn-close:hover {
+    color: var(--text-green) !important;
+}
+
+.modal-backdrop {
+    background-color: transparent !important;
+}
+
+/*------------header-3-----------*/
+
+.departments h6 {
+    font-family: var(--font-family-secondary);
+    margin-top: 2px;
+}
+
+li h6 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-18px);
+}
+
+.discount-text {
+    display: flex;
+    justify-content: end;
+}
+
+.discount-text h6 {
+    font-size: var(--font-size-18px);
+    font-family: var(--font-family-primary);
+
+}
