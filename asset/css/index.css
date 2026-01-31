@@ -869,6 +869,7 @@
     font-weight: 600;
 }
 
+
 .deal-right-img {
     background-image: url(../images/deal-img.png);
     background-size: cover;
@@ -880,6 +881,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .bg-right-img-heading {
     font-family: var(--font-family-primary);
