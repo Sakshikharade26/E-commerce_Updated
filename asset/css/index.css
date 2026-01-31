@@ -272,7 +272,7 @@
 }
 
 .second-row-card {
-    background-image: url(/asset/images/card-img-1.png);
+    background-image: url(asset/images/card-img-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none !important;
@@ -280,7 +280,7 @@
 }
 
 .second-row-card-two {
-    background-image: url(/asset/images/card-img-2.png);
+    background-image: url(asset/images/card-img-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none !important;
@@ -289,7 +289,7 @@
 }
 
 .second-row-card-three {
-    background-image: url(/asset/images/card-img-3.png);
+    background-image: url(asset/images/card-img-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none !important;
@@ -723,7 +723,7 @@
 
 /*-----Sale Section------------*/
 .sale-bg-img {
-    background-image: url(/asset/images/bg-image.png);
+    background-image: url(asset/images/bg-image.png);
     height: auto !important;
     padding-bottom: 30px;
 
@@ -870,7 +870,7 @@
 }
 
 .deal-right-img {
-    background-image: url(/asset/images/deal-img.png);
+    background-image: url(asset/images/deal-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
