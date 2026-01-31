@@ -870,7 +870,7 @@
 }
 
 .deal-right-img {
-    background-image: url(/asset/images/deal-img.png);
+    background-image: url(../images/deal-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
