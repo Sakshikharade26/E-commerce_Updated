@@ -271,8 +271,9 @@
 
 }
 
+
 .second-row-card {
-    background-image: url("asset/images/card-img-1.png");
+    background-image: url(../images/card-img-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none !important;
@@ -280,19 +281,21 @@
 }
 
 .second-row-card-two {
-    background-image: url("asset/images/card-img-2.png");
+    background-image: url(../images/card-img-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none !important;
     border-radius: 15px;
+
 }
 
 .second-row-card-three {
-    background-image: url("asset/images/card-img-3.png");
+    background-image: url(../images/card-img-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none !important;
     border-radius: 15px;
+
 }
 .new {
     background-color: var(--bg-green-primary);
